@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/back"
+    tools:context=".CatAndProduct">
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="53dp"
+        android:background="@drawable/background_color"
+        android:gravity="center"
+        android:text="ADD PRODUCT"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/fvback"
+
+        >
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="113dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.500"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498" />
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnpro"
+        android:layout_width="190dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fvback"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center|bottom"
+
+        android:text=" INSERT
+                      PRODuct"
+        android:textColor="@color/darkGreen"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:text="Developed by eSparse Matrix Solution Pvt Ltd"
+        android:textSize="12sp"
+        android:textStyle="italic|bold" />
+
+
+
+
+</LinearLayout>

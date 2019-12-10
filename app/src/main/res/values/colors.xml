@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="bg_screen4">#3FB93F</color>
+    <color name="green">#F5A7F558</color>
+    <color name="darkGreen">#097409</color>
+    <color name="colorBack">#98F78D</color>
+    <color name="red">#FA3D1B</color>
+
+
+
+
+</resources>

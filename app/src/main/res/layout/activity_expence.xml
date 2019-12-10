@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Expence">
+
+    <TextView
+        android:layout_width="168dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/background_color"
+        android:gravity="center"
+        android:text="EXPENCES"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:text="Shop Rent :"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/darkGreen"
+
+            />
+
+        <EditText
+            android:id="@+id/srent"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:text="Electricity :"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/darkGreen"
+
+            />
+
+        <EditText
+            android:id="@+id/sele"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:text="Delevery boy Charges :"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/darkGreen"
+
+            />
+
+        <EditText
+            android:id="@+id/mpro"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:text="Packing Charges :"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/darkGreen"
+
+            />
+
+        <EditText
+            android:id="@+id/ypro"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="70dp"
+        android:text="Developed by eSparse Matrix Solution Pvt Ltd"
+        android:textSize="12sp"
+        android:textStyle="italic|bold" />
+
+</LinearLayout>
